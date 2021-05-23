@@ -1,0 +1,30 @@
+#header {
+    text-align: center;
+    padding-bottom: 1em;
+    border-bottom: 2px solid black;
+    margin-bottom: 1em;
+}
+
+#general-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.general {
+    width: 250px;
+    max-width: 250px;
+    height: 300px;
+    max-height: 300px;
+    margin: 20px 20px 20px 20px;
+    text-align: center;
+}
+
+.general img {
+    max-width: 250px;
+    max-height: 250px;
+}
+
+.general .general-details {
+    margin: 10px 10px 10px 10px;
+}
